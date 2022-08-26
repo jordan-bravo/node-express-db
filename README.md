@@ -16,6 +16,11 @@
   - `"declaration": true`.
   - `"declarationMap": true`.
   - `"outDir": "build"`.
+  - `"noImplicitAny": true`.
+  - `"alwaysStrict": true`.
+  - `"noUnusedLocals": true`.
+  - `"noUnusedParameters": true`.
+  - `"noImplicitReturns": true`.
 - In `package.json`, add/modify the following:
   ```
   "main": "src/index.js",
