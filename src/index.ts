@@ -22,5 +22,5 @@ app.delete('/user', (_req, res) => {
 
 // Listener
 app.listen(port, () => {
-  console.log(`App listening on port ${port}`);
+  console.log(`Server running in ${process.env.NODE_ENV} mode on port ${port}`);
 });
