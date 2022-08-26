@@ -17,6 +17,7 @@
   - `"declarationMap": true`.
   - `"outDir": "build"`.
   - `"noImplicitAny": true`.
+  - `"alwaysStrict": true`.
   - `"noUnusedLocals": true`.
   - `"noUnusedParameters": true`.
   - `"noImplicitReturns": true`.
