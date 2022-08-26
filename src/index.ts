@@ -2,7 +2,7 @@ import * as dotenv from 'dotenv';
 dotenv.config();
 import express from 'express';
 const app = express();
-const port = process.env.PORT || 3010;
+const PORT = process.env.PORT || 3010;
 
 app.get('/', (_req, res) => {
   res.send('Hello World!');
@@ -21,6 +21,6 @@ app.delete('/user', (_req, res) => {
 });
 
 // Listener
-app.listen(port, () => {
-  console.log(`Server running in ${process.env.NODE_ENV} mode on port ${port}`);
+app.listen(PORT, () => {
+  console.log(`Server running in ${process.env.NODE_ENV} mode on port ${PORT}`);
 });
